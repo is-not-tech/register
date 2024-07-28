@@ -1,15 +1,25 @@
-# Register your .is-not.tech subdomain!
-> **is-not.tech is a conceptual service allowing developers to acquire appealing .is-not.tech subdomains for their personal websites. To hypothetically register a subdomain, visit the is-not.tech registration repository and follow the provided steps.**
-# Report Abuse
-> **If you encounter misuse of any subdomains, contact us at admin@is-not.tech.**
-# Donations
-> **This project remains a concept. For inquiries on supporting this idea, please reach out to admin@is-not.tech.**
+# Register your .is-not.tech Subdomain
 
-# How to Register?
-> **Please head over to the directory ./domains/example.txt and follow the template, you must commit your changes with subdomain.txt, with your sub domain you want and follow the exact template.**
+Welcome to is-not.tech, a service that allows developers to acquire unique .is-not.tech subdomains for their personal websites.
 
-> **We do not have an API, making this a manual process of myself going into our DNS and adding your domain, so we ask you follow the exact template given or your sub-domain will not be accepted.**
+## How to Register
 
-> **YOU MUST FORK THIS REPO AND CREATE A PULL REQUEST!**
+To register your .is-not.tech subdomain, follow these steps:
 
-> **ONCE YOUR SUB DOMAIN IS HERE, YOUR SUB-DOMAIN WAS CREATED!**
+1. Visit the is-not.tech registration repository.
+2. Go to the directory ./domains/example.txt.
+3. Follow the provided template in the example.txt file.
+4. Commit your changes with subdomain.txt, specifying your desired subdomain following the exact template.
+5. Fork this repository and create a pull request.
+
+Please note: We do not have an API for registration. Our team manually adds approved subdomains to our DNS. Ensure you adhere to the provided template for your subdomain to be accepted.
+
+Once your subdomain is listed in the repository, your subdomain will be created.
+
+## Report Abuse
+
+If you come across any misuse of subdomains, please contact us at admin@is-not.tech.
+
+## Donations
+
+This project is currently a concept. For inquiries about supporting this idea, feel free to reach out to admin@is-not.tech.
