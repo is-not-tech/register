@@ -15,8 +15,11 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         with:
           args: preview
+          config_file: 'dnsconfig.js'
 
-          # Optionally, if your DNSConfig files are in a non-default location,
-          # you could specify the paths to the config and credentials file.
-
-        config_file: 'dnsconfig.js'
+      - name: Log DNSControl output
+        run: |
+          echo "DNSControl preview output:"
+          echo "${{ steps.dnscontrol_preview.outputs.stdout }}"
+          echo "DNSControl error output:"
+          echo "${{ steps.dnscontrol_preview.outputs.stderr }}"
