@@ -7,8 +7,8 @@
 
 ## Description
 <!-- Please provide a description below of what you will be using the domain for. -->
-We are thrilled to unveil our new platform, designed to offer users top-notch services and features. Our website will serve as the foundation of our project, providing valuable resources, interactive tools, and an intuitive user experience. Securing this domain is a crucial step in enhancing our online presence and better serving our community.
+
 
 ## Link to Website
 <!-- Please provide a link to your website below. -->
-[Explore our website](http://yourwebsite.com)
+
