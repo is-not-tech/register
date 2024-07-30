@@ -1,6 +1,7 @@
-{
-  "cloudflare": {
-    "email": "${{ secrets.CLOUDFLARE_EMAIL }}", 
-    "token": "${{ secrets.CLOUDFLARE_API_TOKEN }}" 
-  }
-}
+   {
+     "cloudflare": {
+       "TYPE": "CLOUDFLAREAPI",
+       "email": "${{ secrets.CLOUDFLARE_EMAIL }}",  
+       "token": "${{ secrets.CLOUDFLARE_API_TOKEN }}" 
+     }
+   }
