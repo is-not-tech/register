@@ -1,3 +1,2 @@
-- name: DNSControl Action
-uses: koenrh/dnscontrol-action@v3.31.4
-            
+              - name: DNSControl Action
+                uses: koenrh/dnscontrol-action@v3.31.4
