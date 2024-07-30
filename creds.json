@@ -1,7 +1,7 @@
    {
      "cloudflare": {
        "TYPE": "CLOUDFLAREAPI",
-       "email": "${{ secrets.CLOUDFLARE_EMAIL }}",  
-       "token": "${{ secrets.CLOUDFLARE_API_TOKEN }}" 
+       "accountid": "45556a9f2059edfeab961fdf843ec277",  
+       "apitoken": "${{ secrets.CLOUDFLARE_API_TOKEN }}"        
      }
    }
