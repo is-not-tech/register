@@ -1,6 +1,7 @@
-{
-  "cloudflare":{
-    "TYPE": "CLOUDFLAREAPI",
-    "apitoken": "$CLOUDFLARE_API_TOKEN"
-  }
-}
+   {
+     "cloudflare": {
+       "TYPE": "CLOUDFLAREAPI",
+       "accountid": "45556a9f2059edfeab961fdf843ec277",  
+       "apitoken": "${{ secrets.CLOUDFLARE_API_TOKEN }}"        
+     }
+   }
