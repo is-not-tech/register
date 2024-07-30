@@ -1,1 +1,17 @@
+{
+    "description": "Project Description",
 
+    "domain": "is-not.tech",
+    "subdomain": "mopifyz",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "hello@example.com"
+    },
+
+    "record": {
+        "CNAME": "example.com"
+    },
+
+    "proxied": false
+}
