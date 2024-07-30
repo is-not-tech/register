@@ -1,0 +1,17 @@
+{
+    "description": "Project Description.",
+
+    "domain": "is-not.tech",
+    "subdomain": "moifyz",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "hello@example.com"
+    },
+
+    "record": {
+        "CNAME": "cname.vercel-dns.com."
+    },
+
+    "proxied": false
+}
