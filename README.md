@@ -7,8 +7,8 @@ Welcome to is-not.tech, a service that allows developers to acquire unique .is-n
 To register your .is-not.tech subdomain, follow these steps:
 
 1. Visit the is-not.tech registration repository. (You're already here :D)
-2. Go to the directory ./domains/example.txt.
-3. Follow the provided template in the example.txt file.
+2. Go to the directory ./domains/example.json.
+3. Follow the provided template in the example.json txt file.
 4. Commit your changes with subdomain.txt, specifying your desired subdomain following the exact template.
 5. Fork this repository and create a pull request.
 
