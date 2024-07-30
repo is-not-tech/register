@@ -2,7 +2,7 @@
     "description": "Project Description.",
 
     "domain": "is-not.tech",
-    "subdomain": "moifyz",
+    "subdomain": "example",
 
     "owner": {
         "repo": "https://github.com/username/repo",
