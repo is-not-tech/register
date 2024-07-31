@@ -1,0 +1,8 @@
+{
+  "cloudflare": {
+    "TYPE": "CLOUDFLAREAPI",
+    "accountid": "45556a9f2059edfeab961fdf843ec277",  
+    "apitoken": "3EDO3HcIMsaLzPiNVklvcBbRjUFBZ0RTYTdDEQ0w", 
+    "email": "${{ secrets.CLOUDFLARE_EMAIL }}" 
+  }
+}
