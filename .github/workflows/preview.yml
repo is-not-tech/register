@@ -19,6 +19,6 @@ jobs:
               with:
                   args: preview 
                   config_file: "dnsconfig.js"
-                  creds_file: "creds.json"
+                 # creds_file: "creds.json"
                   apitoken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
                   email: ${{ secrets.CLOUDFLARE_EMAIL }} 
