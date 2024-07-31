@@ -1,26 +1,24 @@
-     name: Preview
+name: Preview
 
-     on:
-         pull_request
+on:
+    pull_request
 
-     concurrency:
-         group: ${{ github.ref }}-publish
-         cancel-in-progress: false
+concurrency:
+    group: ${{ github.ref }}-publish
+    cancel-in-progress: false
 
-     jobs:
-         dns:
-             name: DNS
-             runs-on: ubuntu-latest
-             steps:
-                 - uses: actions/checkout@v4
+jobs:
+    dns:
+        name: DNS
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
 
-                 - name: Publish
-                   uses: is-cool-me/dnscontrol-action@v4.11.0
-                   env:
-                       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-                       CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }} 
-                   with:
-                       args: preview 
-                       config_file: "dnsconfig.js"
-                       # creds_file: "creds.json"  # No need for this anymore
-     
+            - name: Publish
+              uses: is-cool-me/dnscontrol-action@v4.11.0
+              with:
+                  args: preview 
+                  config_file: "dnsconfig.js"
+                  creds_file: "creds.json"
+                  apitoken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+                  email: ${{ secrets.CLOUDFLARE_EMAIL }} 

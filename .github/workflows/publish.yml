@@ -21,13 +21,11 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            - run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}'
-
             - name: Publish
               uses: is-cool-me/dnscontrol-action@v4.11.0
-              env:
-                  CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
               with:
-                  args: push
+                  args: push 
                   config_file: "dnsconfig.js"
-                  creds_file: ""
+                  creds_file: "creds.json"
+                  apitoken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+                  email: ${{ secrets.CLOUDFLARE_EMAIL }} 
