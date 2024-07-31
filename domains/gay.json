@@ -1,0 +1,19 @@
+{
+    "description": "",
+
+    "domain": "is-not.tech",
+    "subdomain": "gay",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": ""
+    },
+
+    "record": {
+     
+        "CNAME": "dns.tixte.com",
+  "TXT": ["_tixte-challenge=OjDty7wi"]
+    },
+
+    "proxied": false
+}
