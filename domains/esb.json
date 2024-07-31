@@ -1,17 +1,16 @@
-
 {
-    "description": "Project Description",
+    "description": "Ohio",
 
     "domain": "is-not.tech",
-    "subdomain": "mopifyz",
+    "subdomain": "esb",
 
     "owner": {
         "repo": "https://github.com/username/repo",
-        "email": "hello@example.com"
+        "email": "noiamjustetingifthisisworking"
     },
 
     "record": {
-        "CNAME": "example.com"
+        "CNAME": "mcstatus-is-a-dev.onrender.com"
     },
 
     "proxied": false
