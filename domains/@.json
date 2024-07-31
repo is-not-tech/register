@@ -1,0 +1,17 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-not.tech",
+    "subdomain": "@",
+
+    "owner": {
+        "repo": "https://github.com/is-not-tech/register/",
+        "email": "admin@is-not.tech"
+    },
+
+    "record": {
+        "A": "76.76.21.21"
+    },
+
+    "proxied": false
+}
