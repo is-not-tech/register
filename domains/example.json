@@ -6,15 +6,11 @@
 
     "owner": {
         "repo": "https://github.com/username/repo",
-        "email": ""
+        "email": "hello@example.com"
     },
 
     "record": {
-        "A": ["1.1.1.1", "1.0.0.1"],
-        "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
-        "MX": ["mx1.example.com", "mx2.example.com"],
-        "TXT": ["example_verification=1234567890"]
+        "CNAME": "example.com"
     },
 
     "proxied": false
