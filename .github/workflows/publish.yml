@@ -27,5 +27,5 @@ jobs:
                   args: push 
                   config_file: "dnsconfig.js"
                   creds_file: "creds.json"
-                  apitoken: ${{ secrets.CF_API_TOKEN }}
+                  apitoken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
                   email: ${{ secrets.CLOUDFLARE_EMAIL }} 
