@@ -19,7 +19,7 @@ jobs:
         name: DNS
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v6
 
             - name: Publish
               uses: is-cool-me/dnscontrol-action@v4.13.0
